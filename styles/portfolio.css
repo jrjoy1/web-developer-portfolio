@@ -10,6 +10,8 @@ body {
 /* nav related styles */
 nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-title {
@@ -22,10 +24,16 @@ nav {
 .button-primary {
     border-radius: 5px;
     background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
 }
 
 nav>ul {
     display: flex;
+    align-items: center;
 }
 
 nav li {
